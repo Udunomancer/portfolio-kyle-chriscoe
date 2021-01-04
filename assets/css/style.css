@@ -18,3 +18,7 @@ body {
     color: #b300b3;
     transform: rotate(-12deg);
 }
+
+#about-section {
+    background-image: url(../images/poster-1.jpg);
+}
