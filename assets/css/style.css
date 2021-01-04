@@ -9,8 +9,13 @@
 }
 
 @font-face {
-    font-family: PantonBold;
-    src: url(../font/PantonRustScrSmBold-Gr.woff);
+    font-family: Panton;
+    src: url(../font/PantonDemo-Light.otf);
+}
+
+@font-face {
+    font-family: ColorTube;
+    src: url(../font/ColorTube-Regular.otf);
 }
 
 @font-face {
@@ -46,7 +51,7 @@ body {
 }
 
 #about-section p {
-    font-family: PantonBold;
+    font-family: Panton;
     color: white;
 
 }
@@ -59,14 +64,13 @@ body {
 #project-1 {
     background-image: url(../images/poster-2.jpg);
     background-size: cover;
+    font-family: Pixer;
+    color: white;
 }
 
 #project-2 {
     background-image: url(../images/poster-3.jpg);
     background-size: cover;
-}
-
-#project-3 {
-    background-image: url(../images/poster-4.jpg);
-    background-size: cover;
+    font-family: ColorTube;
+    color: white;
 }

@@ -5,4 +5,6 @@ Professional Portfolio
 https://www.fontfabric.com/fonts/sprite-graffiti/
 https://www.fontfabric.com/fonts/pixer/
 https://www.fontfabric.com/fonts/panton-rust/
+https://www.fontfabric.com/fonts/colortube/
+https://www.fontfabric.com/fonts/panton/
 Posters from unsplash.com
