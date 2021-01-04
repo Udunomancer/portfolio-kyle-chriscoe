@@ -1,0 +1,9 @@
+@font-face {
+    font-family: Graffiti;
+    src: url(../font/SpriteGraffiti-Regular.woff);
+}
+
+body {
+    background-image: url(../images/old-concrete-wall.jpg);
+    /* background-image: url(\assets\images\background.jpg); */
+}
