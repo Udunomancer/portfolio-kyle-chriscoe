@@ -7,3 +7,14 @@ body {
     background-image: url(../images/old-concrete-wall.jpg);
     /* background-image: url(\assets\images\background.jpg); */
 }
+
+#my-name {
+    margin-top: 40px;
+}
+
+#my-name h1 {
+    font-size: 80px;
+    font-family: Graffiti;
+    color: #b300b3;
+    transform: rotate(-12deg);
+}
