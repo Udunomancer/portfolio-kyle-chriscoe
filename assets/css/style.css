@@ -3,6 +3,21 @@
     src: url(../font/SpriteGraffiti-Regular.woff);
 }
 
+@font-face {
+    font-family: PantonHeavy;
+    src: url(../font/PantonRustHeavy-GrSh.woff);
+}
+
+@font-face {
+    font-family: PantonBold;
+    src: url(../font/PantonRustScrSmBold-Gr.woff);
+}
+
+@font-face {
+    font-family: Pixer;
+    src: url(../font/Pixer-Regular.woff);
+}
+
 body {
     background-image: url(../images/old-concrete-wall.jpg);
     /* background-image: url(\assets\images\background.jpg); */
@@ -22,16 +37,36 @@ body {
 
 #about-section {
     background-image: url(../images/poster-1.jpg);
+    background-size: cover;
+}
+
+#about-section h2 {
+    font-family: PantonHeavy;
+    color: white;
+}
+
+#about-section p {
+    font-family: PantonBold;
+    color: white;
+
+}
+
+#about-section .background {
+    background-color: black;
+    opacity: .8
 }
 
 #project-1 {
     background-image: url(../images/poster-2.jpg);
+    background-size: cover;
 }
 
 #project-2 {
     background-image: url(../images/poster-3.jpg);
+    background-size: cover;
 }
 
 #project-3 {
     background-image: url(../images/poster-4.jpg);
+    background-size: cover;
 }
