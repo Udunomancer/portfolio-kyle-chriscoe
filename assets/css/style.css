@@ -25,7 +25,7 @@
 
 body {
     background-image: url(../images/old-concrete-wall.jpg);
-    /* background-image: url(\assets\images\background.jpg); */
+    margin-bottom: 60px;
 }
 
 #my-name {
@@ -68,9 +68,17 @@ body {
     color: white;
 }
 
+#project-1 img {
+    opacity: .9;
+}
+
 #project-2 {
     background-image: url(../images/poster-3.jpg);
     background-size: cover;
     font-family: ColorTube;
     color: white;
+}
+
+project-2 img {
+    opacity: .7;
 }
