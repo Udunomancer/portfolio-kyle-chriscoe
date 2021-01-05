@@ -1,105 +1,106 @@
+/* FONTS */
 @font-face {
-    font-family: Graffiti;
-    src: url(../font/SpriteGraffiti-Regular.woff);
+  font-family: Graffiti;
+  src: url(../font/SpriteGraffiti-Regular.woff);
 }
 
 @font-face {
-    font-family: PantonHeavy;
-    src: url(../font/PantonRustHeavy-GrSh.woff);
+  font-family: PantonHeavy;
+  src: url(../font/PantonRustHeavy-GrSh.woff);
 }
 
 @font-face {
-    font-family: Panton;
-    src: url(../font/PantonDemo-Light.otf);
+  font-family: ColorTube;
+  src: url(../font/ColorTube-Regular.otf);
 }
 
 @font-face {
-    font-family: ColorTube;
-    src: url(../font/ColorTube-Regular.otf);
+  font-family: Pixer;
+  src: url(../font/Pixer-Regular.woff);
 }
 
 @font-face {
-    font-family: Pixer;
-    src: url(../font/Pixer-Regular.woff);
+  font-family: Canaro;
+  src: url(../font/Canaro-LightDEMO.woff);
 }
 
-@font-face {
-    font-family: Canaro;
-    src: url(../font/Canaro-LightDEMO.woff);
-}
-
+/* UNIVERSAL STYLING */
 body {
-    background-image: url(../images/old-concrete-wall.jpg);
-    margin-bottom: 60px;
+  background-image: url(../images/old-concrete-wall.jpg);
+  margin-bottom: 60px;
 }
 
+/* HEADER STYLING */
 #my-name {
-    margin-top: 40px;
-    margin-bottom: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 #my-name h1 {
-    font-size: 80px;
-    font-family: Graffiti;
-    color: #b300b3;
-    transform: rotate(-12deg);
+  font-size: 80px;
+  font-family: Graffiti;
+  color: #b300b3;
+  transform: rotate(-12deg);
 }
 
+/* ABOUT SECTION STYLING */
 #about-section {
-    background-image: url(../images/poster-1.jpg);
-    background-size: cover;
+  background-image: url(../images/poster-1.jpg);
+  background-size: cover;
 }
 
 #about-section h2 {
-    font-family: PantonHeavy;
-    color: white;
+  font-family: PantonHeavy;
+  color: white;
 }
 
 #about-section p {
-    font-family: Canaro;
-    color: white;
+  font-family: Canaro;
+  color: white;
 }
 
 #about-section .background {
-    background-color: black;
-    opacity: .8
+  background-color: black;
+  opacity: 0.8;
 }
 
 #self-photo-contain {
-    max-height: 250px;
+  max-height: 250px;
 }
 
 #self-photo {
-    height: 100%;
-    width: auto;
+  height: 100%;
+  width: auto;
 }
 
+/* PROJECT 1 SECTION STYLING */
 #project-1 {
-    background-image: url(../images/poster-2.jpg);
-    background-size: cover;
-    font-family: Pixer;
-    color: white;
+  background-image: url(../images/poster-2.jpg);
+  background-size: cover;
+  font-family: Pixer;
+  color: white;
 }
 
 #project-1 a {
-    color: white !important;
+  color: white !important;
 }
 
 #project-1 img {
-    opacity: .9;
+  opacity: 0.9;
 }
 
+/* PROJECT 2 SECTION STYLING */
 #project-2 {
-    background-image: url(../images/poster-3.jpg);
-    background-size: cover;
-    font-family: ColorTube;
-    color: white;
+  background-image: url(../images/poster-3.jpg);
+  background-size: cover;
+  font-family: ColorTube;
+  color: white;
 }
 
 #project-2 a {
-    color: white !important;
+  color: white !important;
 }
 
 #project-2 img {
-    opacity: .9;
+  opacity: 0.9;
 }
