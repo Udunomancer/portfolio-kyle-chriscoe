@@ -23,6 +23,11 @@
     src: url(../font/Pixer-Regular.woff);
 }
 
+@font-face {
+    font-family: Canaro;
+    src: url(../font/Canaro-LightDEMO.woff);
+}
+
 body {
     background-image: url(../images/old-concrete-wall.jpg);
     margin-bottom: 60px;
@@ -51,14 +56,22 @@ body {
 }
 
 #about-section p {
-    font-family: Panton;
+    font-family: Canaro;
     color: white;
-
 }
 
 #about-section .background {
     background-color: black;
     opacity: .8
+}
+
+#self-photo-contain {
+    max-height: 250px;
+}
+
+#self-photo {
+    height: 100%;
+    width: auto;
 }
 
 #project-1 {
