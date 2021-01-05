@@ -68,6 +68,10 @@ body {
     color: white;
 }
 
+#project-1 a {
+    color: white !important;
+}
+
 #project-1 img {
     opacity: .9;
 }
@@ -79,6 +83,10 @@ body {
     color: white;
 }
 
-project-2 img {
-    opacity: .7;
+#project-2 a {
+    color: white !important;
+}
+
+#project-2 img {
+    opacity: .9;
 }
