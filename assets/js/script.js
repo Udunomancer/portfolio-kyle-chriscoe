@@ -3,10 +3,13 @@ var linkedinToggleEl = $('#linkedin');
 var linkedinShowEl = $('#collapse-linkedin');
 var githubToggleEl = $('#github');
 var githubShowEl = $('#collapse-github');
+var resumeToggleEl = $('#resume');
+var resumeShowEl = $('#collapse-resume');
 
 // ===JS VARIABLES===
 var showLinkedin = false;
 var showGithub = false;
+var showResume = false;
 
 // ===FUNCTION DEFINITIONS===
 function toggleLinkedin() {
@@ -33,7 +36,21 @@ function toggleGithub() {
     }
 }
 
+function toggleResume() {
+    if(showResume === false) {
+        showResume = true;
+        resumeToggleEl.attr('aria-expanded', 'true');
+        resumeShowEl.addClass('show');
+    } else {
+        showResume = false;
+        resumeToggleEl.attr('aria-expanded', 'false');
+        resumeShowEl.removeClass('show');
+    }
+}
+
 // ===EVENT LISTENERS===
 linkedinToggleEl.on('click', toggleLinkedin);
 
 githubToggleEl.on('click', toggleGithub);
+
+resumeToggleEl.on('click', toggleResume);
