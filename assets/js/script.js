@@ -22,6 +22,14 @@ function toggleLinkedin() {
         linkedinToggleEl.attr('aria-expanded', 'false');
         linkedinShowEl.removeClass('show');
     }
+
+    showGithub = false;
+    githubToggleEl.attr('aria-expanded', 'false');
+    githubShowEl.removeClass('show');
+
+    showResume = false;
+    resumeToggleEl.attr('aria-expanded', 'false');
+    resumeShowEl.removeClass('show');
 }
 
 function toggleGithub() {
@@ -34,6 +42,14 @@ function toggleGithub() {
         githubToggleEl.attr('aria-expanded', 'false');
         githubShowEl.removeClass('show');
     }
+
+    showLinkedin = false;
+    linkedinToggleEl.attr('aria-expanded', 'false');
+    linkedinShowEl.removeClass('show');
+
+    showResume = false;
+    resumeToggleEl.attr('aria-expanded', 'false');
+    resumeShowEl.removeClass('show');
 }
 
 function toggleResume() {
@@ -46,6 +62,13 @@ function toggleResume() {
         resumeToggleEl.attr('aria-expanded', 'false');
         resumeShowEl.removeClass('show');
     }
+    showLinkedin = false;
+    linkedinToggleEl.attr('aria-expanded', 'false');
+    linkedinShowEl.removeClass('show');
+    
+    showGithub = false;
+    githubToggleEl.attr('aria-expanded', 'false');
+    githubShowEl.removeClass('show');
 }
 
 // ===EVENT LISTENERS===
